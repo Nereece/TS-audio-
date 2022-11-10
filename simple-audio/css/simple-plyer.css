@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    background-image: url("../images/night sky.jpg");
+    /* height: vh; */
+}
+
+/* MIDNIGHTS */
+#header {
+    /* width: 500px; */
+    margin-top: 25px;
+    margin-bottom: 0;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    color: aliceblue;
+    user-select: none;
+}
+
+/* TAYLOR SWIFT */
+#artist {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 200px;
+    display: flex;
+     justify-content: center; 
+    /* margin-left: auto;
+    margin-right: auto; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    color: rgb(210, 163, 237);
+
+}
+
+ h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: rgb(210, 163, 237);
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+} 
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    user-select: none;
+}
+
+/* FOR RECORD IMAGES */
+#record-images {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#blue-record {
+    margin-left: 40px;
+    margin-right: 40px;
+    animation: rotate 4s ease-in-out both;
+}
+
+#white-record {
+    margin-left: 40px;
+    margin-right: 40px;
+    animation: rotate 4s ease-in-out both;
+}
+
+#purple-record {
+    margin-left: 40px;
+    margin-right: 40px;
+    animation: rotate 4s ease-in-out both;
+}
+
+/* Animation  */
+/* .flex-image {
+    animation: rotate 4s ease-in-out both;
+} */
+
+.flex-image:hover{
+    transform: scale(1.1);
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(-360deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+}
+
+
+#uber-container{
+   display: flex;
+   justify-content: center;
+}
+
+#container{
+    width: 470px;
+    height: 165px;
+    margin-top: 10px;
+    background-color: rgba(10, 0, 36, 0.437);
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#track-record{
+    margin: 0;
+}
+
+#audio1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+#audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
+
+#play-pause-button {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+#current-time {
+    width: 50px;
+    padding-left: 5px;
+    padding-right: 0;
+    margin: 0;
+}
+
+#time-divider {
+    padding-left: 2.5px;
+    margin: 0;
+}
+
+#total-time {
+    width: 50px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin: 0;
+}
+
+#seek-bar {
+    width: 400px;
+    cursor: pointer;
+    
+}
+
+/* VOLUME? */
+
+#volume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 15px;
+   
+}
+#volume-control{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    user-select: none;
+    
+}
+#volume-output{
+    margin-left: 10px;
+}
+#volume-slider {
+    width: 150px; 
+    cursor: pointer;
+}
+
+/* #volume-slider::-webkit-slider-runnable-track {
+    background: rgba(255, 255, 255, 0.01);
+}
+
+#volume-slider::-moz-range-track {
+    background: rgba(250, 250, 250, 0.256);
+}
+
+#volume-slider::-ms-fill-upper {
+    background: rgba(255, 255, 255, 0.01);
+}
+
+#volume-slider::before {
+    width: var(--volume-before-width);
+} */
+
+
+
+

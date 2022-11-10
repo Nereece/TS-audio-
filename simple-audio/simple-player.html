@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Player</title>
+    <link rel="stylesheet" href="css/simple-plyer.css">
+    <script src="js/simple-player.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+    </style>
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1 id="header">Midnights</h1>
+            <h4 id="artist">Taylor Swift</h4>
+        </header>
+    </div>
+
+    <div id="record-images">
+     <div class="flex-image">
+        <img id="purple-record" class="rotate" src="images/Vinyl_Violet-0.png" width="350px">
+        </div>
+        <div class="flex-image">
+        <img id="white-record" class="rotate" src="images/Vinyl_White-0.png" width="350px">
+        </div>
+        <div class="flex-image">
+        <img id="blue-record" class="rotate" blue src="images/Vinyl_Blue.png" width="350px">
+        </div>
+    </div>
+
+    <div id="uber-container">
+        <div id="container">
+             <h3 id="track-name">Select Record</h3> 
+            <div id="audio1">
+                <img id="play-pause-button" src="images/playwhite.png">
+                <h4 id="current-time">0:00</h4>
+                <h4 id="time-divider">/</h4>
+                <h4 id="total-time">0:00</h4>
+            </div>
+            <div id="audio">
+                <input id="seek-bar" type="range" min="0" value="0" disabled>
+            </div>
+            <div id="volume">
+                <div id="volume-control">
+                    <input id="volume-slider" type="range" max="100" value="100">
+                    <output id="volume-output">100</output>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
